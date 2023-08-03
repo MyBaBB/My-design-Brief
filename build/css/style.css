@@ -542,11 +542,6 @@ video {
   scroll-behavior: smooth;
 }
 
-.bg-red-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
-}
-
 .bg-slate-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(248 250 252 / var(--tw-bg-opacity));
@@ -563,3 +558,5 @@ video {
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
+
+
