@@ -1,3 +1,3 @@
  
  
-This is where   lesson 02 was  
+Fresh New Website Setup and Ready to go. 
