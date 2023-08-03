@@ -83,3 +83,31 @@ https://www.youtube.com/watch?v=lCxcTsOHrjo&t=1h08m00s
 
 
         
+ /** @type {import('tailwindcss').Config} */
+export const content = ["./build/*.html", "./build/js/*.js"];
+export const theme = {
+  
+extend: {
+  fontFamily: {
+    sans: ['Open Sans', 'sans-serif'],
+    serif: ['Merriweather', 'serif'],
+  },
+  colors: {
+    // your color palette here
+  },
+  screens: {
+    // your screen sizes here
+  },
+  keyframes: {
+    // your keyframes here
+  },
+  animation: {
+    // your animations here
+  }
+},
+plugins: [],
+
+
+
+
+
