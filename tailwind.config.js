@@ -35,11 +35,20 @@
        varMEDSPACE: "#1b3854",
        varLIGHTSPACE: "#264d73",
        varBoneWhite: "#fff9d7",
+       varDCDARKBLUE: "#012344",
+       varDCMEDBLUE: "#01366a",
+       varDCLIGHTBLUE: "#01366a",
+       varDCDARKGREY: "#484a4d",
+       varDCMEDGREY: "#6b6e73",
+       varDCLIGHTGREY: "#b2b7bf",
+       varDCBLUEGREY: "#33485d",
+
+
      }, 
-   /*   fontFamily: {
-       sans: ['Open Sans', 'sans-serif'],
-       serif: ['Merriweather', 'serif'],
-     }, */
+     fontFamily: {
+       'noto': ['Noto Sans', 'sans-serif'],
+       "rye": ['Rye', 'cursive'],
+     },
  
         screens: {
          'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },

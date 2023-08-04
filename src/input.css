@@ -1,3 +1,10 @@
+ 
+ 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Rye&display=swap');
+ 
+ 
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,86 +15,122 @@
     margin-right: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    border: 1px solid red;
+    border: 3px solid #000000;
   }
+
+body {
+   font-size: 3rem;
+   background: linear-gradient(to bottom, #002244, #8c8b8a, #ffffff);
+   font-family: noto serif;
+}
+
+input{ background-color: #33485d;
+   width: 80%;
+   border-radius:  10px ;
+   border: solid 2px #000000;
+   box-shadow: 0 0 0 0.2rem #000000;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+ textarea{ background-color: #33485d;
+   width: 80%;
+    border-radius: 10px;
+    border: solid 2px #000000;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1);
+ }
+
+label{
+      font-size: 4rem;
+      color: #ffffff;
+      font-family: noto serif;
+}
 
 
 /* xxxs */
 @media (min-width: 350px) {
-    body {
-        background-color: rgb(29, 75, 132)
-     }
+     
+    
      .container {
         max-width: 350px;
+        
      }
   } 
 
 /* xxs */
   @media (min-width: 400px) {
-    body {
-        background-color: rgb(132, 29, 125);
-     }
+    
+     
 .container {
         max-width: 400px;
+        
      }
   } 
    /* xs */
   @media (min-width: 500px) {
-    body {
-        background-color: rgb(191, 255, 0);
-     }
+    
+  
 .container {
         max-width: 500px;
+        
      }
   } 
+
+ 
    /* s */
   @media (min-width: 640px) {
-    body {
-        background-color: rgb(0, 255, 255);
-     }
+    
 .container {
         max-width: 640px;
+         
      }
   }  
+
+
 
 /* md */
   @media (min-width: 768px) {
-    body {
-        background-color: rgb(255, 208, 0);
-     }
 .container {
         max-width: 768px;
+      
      }
-
     } 
+
+
 
 /* lg */
   @media (min-width: 1024px) {
-    body {
-        background-color: rgb(233, 15, 179);
-     }
-.container {
-        max-width: 1024px;
+   
+        
+       
+      
+   
+
+     .container {
+               max-width: 1024px;
+               
      }  
   }  
 
+
+
 /* xl */
   @media (min-width: 1280px) {
-    body {
-        background-color: rgb(0, 255, 34);
-     }
+     
+        
+         
+    
 .container {
         max-width: 1280px;
+         
      }
-
   }  
 
 /* 2xl */
  @media (min-width: 1536px) {
-    body {
-        background-color: rgb(255, 0, 17);
-     }
+    
+       
+   
 .container {
         max-width: 1536px;
+         
      }
  }  
