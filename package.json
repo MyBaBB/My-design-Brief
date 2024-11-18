@@ -2,7 +2,7 @@
   "name": "cover-letter",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mybabb.github.io/myres/",
+  // "homepage": "https://mybabb.github.io/myres/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
