@@ -1,12 +1,11 @@
- 
-import Zenith from "./Components/Zenith.jsx"
-import './App.css'
+import Zenith from "./Components/Zenith.jsx";
+import "./App.css";
 const App = () => {
   return (
     <div>
-      < Zenith />   
+      <Zenith />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
