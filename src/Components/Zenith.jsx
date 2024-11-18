@@ -1,10 +1,9 @@
- 
-import Apex from './ApexFolder/Apex'  
+import Apex from "./ApexFolder/Apex";
 
 function App() {
   return (
     <>
-     <Apex />
+      <Apex />
     </>
   );
 }

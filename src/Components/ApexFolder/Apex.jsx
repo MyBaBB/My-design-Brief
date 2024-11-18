@@ -1,13 +1,13 @@
-import React from 'react'
-
+import React from "react";
+import Intro from "./Intro";
 const Apex = () => {
   return (
     <div>
-       <div className="h-screen w-screen font-Blackbeard-ld7V text-varLIGHTDUCKHEAD">
-        test
+      <div>
+        <Intro />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Apex
+export default Apex;
