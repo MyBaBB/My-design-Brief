@@ -1,11 +1,12 @@
-import React from "react";
+ 
 import "./Apex.css";
 import { VscDebugBreakpointLogUnverified } from "react-icons/vsc";
 const CoverLetter = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-200 p-6">
+    <div className="flex min-h-screen items-center  justify-center bg-gray-300 p-6">
       <div className="mx-auto max-w-3xl rounded-lg bg-slate-800   
-      border-y-2 border-solid border-slate-500/50 bg-gradient-to-b from-blue-200 via-blue-100 to-blue-200 p-8 font-LibreBaskerville-Bold text-slate-950 shadow-xl
+      border-y-2 border-solid border-slate-500/50 bg-gradient-to-b from-blue-200 via-blue-100 to-blue-200 p-8
+       font-LibreBaskerville-Bold text-slate-950 shadow-xl
       ">
         <h1 className="paragraphAllWords mb-4 text-3xl font-bold text-center text-slate-950">
         <u style={{textDecorationColor: "green"}} >Brett Baker</u>:
@@ -25,22 +26,23 @@ const CoverLetter = () => {
         <p className="paragraphAllWords mb-4 text-center text-[1.4rem]">
          <u style={{textDecorationColor: "green"}}>My Skills Include</u>:
         </p>
-        <div className="paragraphAllWords mb-4 grid grid-cols-2 gap-4">
+
+        <div className="paragraphAllWords text-2xl mb-4 grid grid-cols-1 md:grid-cols-2 gap-4">
           <ul className="list-inside list-none">
-            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block"/>React Js</li>
-            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block"/>HTML5</li>
-            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block"/>CSS3</li>
-            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block"/>TailwindCSS</li>
-            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block"/>JavaScript</li>
-            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block"/>GSAP Animation</li>
+            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block whitespace-nowrap "/>React Js</li>
+            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block whitespace-nowrap "/>HTML5</li>
+            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block whitespace-nowrap "/>CSS3</li>
+            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block whitespace-nowrap "/>TailwindCSS</li>
+            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block whitespace-nowrap "/>JavaScript</li>
+            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block whitespace-nowrap "/>GSAP Animation</li>
           </ul>
           <ul className="list-inside list-none">
-            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block"/>Website Assistance</li>
-            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block"/>Three Js. 3D</li>
-            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block"/>Adobe Photo-Shop</li>
-            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block"/>Adobe Illustrator</li>
-            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block"/>Stable Diffusion</li>
-            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block"/>Open Source Contributions</li>
+            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block whitespace-nowrap "/>Website Assistance</li>
+            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block whitespace-nowrap "/>Three Js. 3D</li>
+            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block whitespace-nowrap "/>Adobe Photo-Shop</li>
+            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block whitespace-nowrap "/>Adobe Illustrator</li>
+            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block whitespace-nowrap "/>Stable Diffusion</li>
+            <li><VscDebugBreakpointLogUnverified size={23}  className="listIcon inline-block whitespace-nowrap "/>Open Source Contributions</li>
           </ul>
         </div>
        
