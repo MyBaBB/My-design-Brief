@@ -4,11 +4,22 @@
 
 .listIcon{
   margin-right: 5px;
-  color: green;
+  color: #8fbc8f;
+}
+.paragraphIcon{
+  margin-right: 5px;
+  color: darkseagreen;
 }
 
 @media (min-width: 640px) {
   .paragraphAllWords {
     font-size: 1.4rem;
   }
+}
+.hrLine {
+height: 4px;
+background-color: #8fbc8f;
+border:.5px solid black;
+border-radius: 5px;
+margin-bottom: 18px;
 }
